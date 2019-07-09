@@ -10,7 +10,7 @@ The project is called 'Battle'. Here is a mockup of how it might look towards th
 
 ### Tech
 
-Dillinger uses a number of open source projects to work properly:
+Battle challenge uses a number of open source projects to work properly:
 
 * [Ruby/ERB] - For logic and HTML enhanced for web apps!
 * [Capybara] -  test automation software that simulates scenarios and automates web application testing for BDD
