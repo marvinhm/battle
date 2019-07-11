@@ -26,4 +26,16 @@ class Game
       return @player1
     end
   end
+
+  def finished?
+    @player1.hp == 0 || @player2.hp == 0
+  end
+
+  def result
+    if @player1.hp == 0
+      return "Unlucky #{@player1.name}, you lose!"
+    else
+      return "Unlucky #{@player2.name}, you lose!"
+    end
+  end
 end
