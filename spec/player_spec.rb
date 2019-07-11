@@ -9,12 +9,6 @@ describe Player do
     end
   end
 
-  describe '#attack' do
-    it 'Should attack opponent (10HP)' do
-      player = Player.new("Tim")
-      expect(player).to respond_to(:attack)
-    end
-  end
 
   describe '#receive_damage' do
     it 'reduces the player hit points' do
