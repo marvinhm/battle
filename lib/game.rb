@@ -38,4 +38,13 @@ class Game
       return "Unlucky #{@player2.name}, you lose!"
     end
   end
+
+  def self.create(player1, player2)
+    @game = Game.new(player1, player2)
+  end
+
+  def self.instance
+    @game
+  end
+  
 end
